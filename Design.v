@@ -7,7 +7,8 @@ module dual_port_ram(
   input clk, //clk
   output reg [7:0] q_a, q_b //output data at Port A and Port B
 );
-  
+
+  reg [15:0] yashbencho;
   reg [7:0] ram [63:0]; //8*64 bit ram
 
  
